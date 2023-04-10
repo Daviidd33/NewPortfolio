@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/58563328cc.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header id="header">
+
+        <div class="container">
+
+            <nav>
+                <p class="logo">David <span>EL</span>.</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="text-header">
+                <h1>Hey ! <br> my name is <span>D</span>avid</h1>
+                <p>I'm a front-end developer<br> who love learn and create</p>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- About Section -->
+    <section id="about">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="leftSide">
+                    <img src="picture/profile.jpg" alt="me">
+                </div>
+
+                <div class="rightSide">
+                    <h1 class="sousTitre">About me</h1>
+                    <p>My name is David, i was born in Paris and raised in south of France. I made Aliyah 4 years ago.
+                    </p>
+                    <p> Web developer from Tel Aviv, IL. I have serveral front-end skills as Html, Css
+                        Javascript and React.
+                    </p>
+
+                    <div class="skills-section">
+                        <div class="education">
+                            <h2 class="sub-title">Education </h2>
+                            <div class="education-content">
+                                <ul>
+                                    <li> <span>Janury-April 2023</span> <br>Developer Institute </li>
+                                    <li> <span>September-Mai 2014</span> <br>Master logistic </li>
+                                    <li> <span>September-April 2011 </span> <br>License logistic </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="education">
+                            <h2 class="sub-title">Experience </h2>
+                            <div class="education-content">
+                                <ul>
+                                    <li> <span>June 2018 </span> <br>Manager french market </li>
+                                    <li> <span>Mai-June 2017</span> <br>Controle quality</li>
+                                    <li> <span>June-December 2015</span> <br>Logistic Manager </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="education">
+                            <h2 class="sub-title">Skills </h2>
+                            <div class="education-content">
+                                <ul>
+                                    <li> <span>HTML</span> </li>
+                                    <li> CSS</li>
+                                    <li> <span>JAVASCRIPT</span> </li>
+                                    <li> GIT </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Projet section -->
+
+    <section>
+        <h1 id="titleProject" class="sousTitre">Projects</h1>
+
+        <div id="project">
+
+            <!-- First projet -->
+            <div class="projet">
+                <div class="picture">
+                    <img src="./projet/javascript-quiz-image-bytewebster3.png" alt="mon premier projet">
+                </div>
+                <span>Quizz App</span>
+                <span class="date-project">04/02/2023</span>
+                <p>Hey my project is a quiz using Javascript. if the user is entering the wrong answer its changing the
+                    color</p>
+                <div class="btn-container">
+                    <a href="https://github.com/Daviidd33/hackathon" target="_blank"><button class="btn-project">
+                            Code</button></a>
+                    <a href="https://daviidd33.github.io/hackathon/" target="_blank"><button class="btn-project">
+                            Demo</button></a>
+                </div>
+            </div>
+
+            <!-- Second projet -->
+            <div class="projet">
+                <div class="picture">
+                    <img src="./projet/images.png" alt="mon premier projet">
+                </div>
+                <span>Bmi Calculator</span>
+                <span class="date-project">03/26/2023</span>
+                <p>This project is a Bmi Calcutor. The user can add some of his body value and check if he is healthy
+                    or not</p>
+                <div class="btn-container">
+                    <a href="https://github.com/Daviidd33/bmi-calculator" target="_blank"><button class="btn-project">
+                            Code</button></a>
+                    <a href="https://bmi-calculator-dun.vercel.app/" target="_blank"><button class="btn-project">
+                            Demo</button></a>
+                </div>
+            </div>
+
+            <!-- third projet -->
+            <div class="projet">
+                <div class="picture">
+                    <img src="./projet/images.jpg" alt="mon premier projet">
+                </div>
+                <span>Cine movies</span>
+                <span class="date-project">03/29/2023</span>
+                <p>The web application display a list of movies. Using crud methode you can delete,
+                    update or add a movie in the list</p>
+                <div class="btn-container">
+                    <a href="https://github.com/Daviidd33/finalProject" target="_blank"><button class="btn-project">
+                            Code</button></a>
+                    <a href="https://cine-movies.onrender.com/" target="_blank"><button class="btn-project">
+                            Demo</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+
+    <section id="contact">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="contact-left">
+
+                    <h1 class="sousTitre">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>dav7@hotmail.fr</p>
+                    <p><i class="fa-solid fa-phone"></i>0512345678</p>
+
+                    <div class="icon-social">
+                        <a href="https://github.com/Daviidd33?tab=repositories" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/feed/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
+                    </div>
+                    <a href="picture/Copie de DI CV Template (1).pdf" class="resume" download>My Resume !</a>
+
+                </div>
+
+
+                <div class="contact-right">
+
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name:" required>
+                        <input type="email" name="Email" id="" required placeholder="Your e-mail:">
+                        <textarea name="message" rows="8" placeholder="Write your message.."></textarea>
+                        <button type="submit" id="submit">Send</button>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <span>2023 &copy; David.El student at Developers Institute </span>
+    </footer>
+
+    <!-- SideBar menu with small screen -->
+    <script>
+
+        let sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>
